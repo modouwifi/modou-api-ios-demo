@@ -24,7 +24,7 @@
     UIImage *image=[UIImage imageNamed:@"services_default_bg"];
     
     imageView.contentMode = UIViewContentModeCenter;
-    
+    self.title = @"登录魔豆WIFI";
     self.backgroundView.image= [image applyLightEffect];
     
     [[NSNotificationCenter defaultCenter] addObserverForName:kFoundModouNotification object:nil queue:[NSOperationQueue mainQueue] usingBlock:^(NSNotification *note) {

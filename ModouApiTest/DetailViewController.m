@@ -26,6 +26,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.title = @"无线信息";
     [self fetchWIFIInfo];
     // Do any additional setup after loading the view.
 }
